@@ -1,0 +1,76 @@
+.rainbow {
+    background-image: -webkit-linear-gradient(left, #ff6698, #ffb366, #ffff66, #98ff66, #6698ff, #ff6698);
+    background-image: -moz-linear-gradient(left, #ff6698, #ffb366, #ffff66, #98ff66, #6698ff, #ff6698);
+    background-image: -o-linear-gradient(left, #ff6698, #ffb366, #ffff66, #98ff66, #6698ff, #ff6698);
+    background-image: -ms-linear-gradient(left, #ff6698, #ffb366, #ffff66, #98ff66, #6698ff, #ff6698);
+    background-image: -khtml-linear-gradient(left, #ff6698, #ffb366, #ffff66, #98ff66, #6698ff, #ff6698);
+    background-image: linear-gradient(left, #ff6698, #ffb366, #ffff66, #98ff66, #6698ff, #ff6698);
+    -moz-animation: rainbow 2s forwards linear infinite;
+    -webkit-animation: rainbow 2s forwards linear infinite;
+    -o-animation: rainbow 2s forwards linear infinite;
+    -khtml-animation: rainbow 2s forwards linear infinite;
+    -ms-animation: rainbow 2s forwards linear infinite;
+    -lynx-animation: rainbow 2s forwards linear infinite;
+    animation: rainbow 2s forwards linear infinite;
+    background-size: 50% auto;
+}
+
+@-moz-keyframes rainbow {
+    from {
+        background-position: top left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+
+@-webkit-keyframes rainbow {
+    from {
+        background-position: top left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+
+@-o-keyframes rainbow {
+    from {
+        background-position: top left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+
+@-ms-keyframes rainbow {
+    from {
+        background-position: top left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+
+@-khtml-keyframes rainbow {
+    from {
+        background-position: top left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+
+@keyframes rainbow {
+    from {
+        background-position: top left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
